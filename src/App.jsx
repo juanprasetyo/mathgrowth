@@ -1,4 +1,8 @@
+import ReactGA from 'react-ga4';
+
 function App() {
+  ReactGA.initialize(import.meta.env.MEASUREMENT_ID);
+
   return (
     <>
       <div className="navbar bg-secondary">
