@@ -1,7 +1,7 @@
 import ReactGA from 'react-ga4';
 
 function App() {
-  ReactGA.initialize(import.meta.env.MEASUREMENT_ID);
+  ReactGA.initialize(import.meta.env.VITE_MEASUREMENT_ID);
 
   return (
     <>
